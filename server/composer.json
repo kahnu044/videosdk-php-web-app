@@ -1,6 +1,7 @@
 {
     "require": {
         "firebase/php-jwt": "^5.4",
-        "klein/klein": "^2.1"
+        "klein/klein": "^2.1",
+        "vlucas/phpdotenv": "^5.6"
     }
 }

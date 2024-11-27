@@ -4,6 +4,10 @@ require __DIR__ . '/vendor/autoload.php';
 use Firebase\JWT\JWT;
 use Klein\Klein as Route;
 
+// Load environment variables from the .env file
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 /** Your API key and secret */
 $VIDEOSDK_API_KEY = "YOUR_API_KEY";
 $VIDEOSDK_SECRET_KEY = "YOUR_SECRET_KEY";
